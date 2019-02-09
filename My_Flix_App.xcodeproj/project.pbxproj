@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		078038B24D9813C8C6724791 /* Pods_My_Flix_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3226E1085CDFE41753EAB1C7 /* Pods_My_Flix_App.framework */; };
 		290EA32E220A39E400E91A8B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA32D220A39E400E91A8B /* MovieCell.swift */; };
+		293F8EE7220E58AE0049F728 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F8EE6220E58AD0049F728 /* MovieDetailsViewController.swift */; };
 		2968CB212208C1C700CB1E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968CB202208C1C700CB1E16 /* AppDelegate.swift */; };
 		2968CB232208C1C700CB1E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968CB222208C1C700CB1E16 /* ViewController.swift */; };
 		2968CB262208C1C700CB1E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2968CB242208C1C700CB1E16 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		290EA32D220A39E400E91A8B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		293F8EE6220E58AD0049F728 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		2968CB1D2208C1C700CB1E16 /* My_Flix_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Flix_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2968CB202208C1C700CB1E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2968CB222208C1C700CB1E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				2968CB292208C1C900CB1E16 /* LaunchScreen.storyboard */,
 				2968CB2C2208C1C900CB1E16 /* Info.plist */,
 				290EA32D220A39E400E91A8B /* MovieCell.swift */,
+				293F8EE6220E58AD0049F728 /* MovieDetailsViewController.swift */,
 			);
 			path = My_Flix_App;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293F8EE7220E58AE0049F728 /* MovieDetailsViewController.swift in Sources */,
 				2968CB232208C1C700CB1E16 /* ViewController.swift in Sources */,
 				2968CB212208C1C700CB1E16 /* AppDelegate.swift in Sources */,
 				290EA32E220A39E400E91A8B /* MovieCell.swift in Sources */,
